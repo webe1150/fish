@@ -1,0 +1,334 @@
+/* this is where all of your CSS styles go */
+
+.grid_container {
+	width: 450px;
+	height: 650px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: 200px;
+	margin-left: -190px;
+	border: solid red 0px;
+}
+
+.whiter_rectangle  {
+
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	background: #F5E7BD;
+	top: 150px;
+	z-index: -1;
+
+}
+
+@font-face {
+	font-family: 'stix';
+	src: url(../fonts/STIXTwoText.woff2);
+}
+	.author_2 {
+			font-size: 1.75em;
+			font-family: stix;
+			position: absolute;
+			left: 300px;
+			bottom: 50px;
+		}
+	.author_3 {
+			font-size: 1.75em;
+			font-family: stix;
+			position: absolute;
+			left: 300px;
+			bottom: 20px;
+		}
+
+.blacker_square  {
+
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background: black;
+	top: 0px;
+	z-index: -1;
+}
+
+.bluer_rectangle {
+
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	background: #1976b0;
+	top: 0px;
+	left: 150px;
+	z-index:-1 ;
+}
+
+		.author_1 {
+			font-size: 2em;
+			font-family: stix;
+			position: absolute;
+			left: 180px;
+			top: -20px;
+			color: #F5E7BD;
+		}
+
+		.title_1 {
+			font-size: 3em;
+			font-family: stix;
+			position: absolute;
+			left: 180px;
+			top: -5px;
+			color: black;
+		}
+		.title_2 {
+			font-size: 3em;
+			font-family: stix;
+			position: absolute;
+			left: 180px;
+			top: 35px;
+			color: black;
+		}
+
+.blue_circle_1 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: #1976b0;
+	border-radius: 100%;
+	left: 90px;
+	top: 200px;
+}
+	.blackest_triangle_1 {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-left: 50px solid transparent; 
+		border-right: 50px solid black;
+		border-bottom: 50px solid transparent;
+		position: absolute;
+		top: 200px;
+		left: 120px;
+		animation: swim 2s infinite linear
+	}
+
+		.black_circle_1 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 100px;
+			top: 243px;
+		}
+
+	.blue_circle_2 {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: #1976b0;
+		border-radius: 100%;
+		left: 20px;
+		top: 300px;
+		}
+	.blackest_triangle_2 {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-left: 50px solid transparent; 
+		border-right: 50px solid black;
+		border-bottom: 50px solid transparent;
+		position: absolute;
+		top: 300px;
+		left: 50px;
+		animation: swim 2s infinite linear
+	}
+
+		.black_circle_2 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 30px;
+			top: 343px;
+		}
+
+	.blue_circle_3 {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: #1976b0;
+		border-radius: 100%;
+		left: 150px;
+		top: 300px;
+}
+	.blackest_triangle_3 {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-left: 50px solid transparent; 
+		border-right: 50px solid black;
+		border-bottom: 50px solid transparent;
+		position: absolute;
+		top: 300px;
+		left: 180px;
+		animation: swim 2s infinite linear
+	}
+
+		.black_circle_3 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 160px;
+			top: 343px;
+		}
+
+.blue_circle_4 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: #1976b0;
+	border-radius: 100%;
+	left: 90px;
+	top: 400px;
+}
+	.blackest_triangle_4 {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-left: 50px solid transparent; 
+		border-right: 50px solid black;
+		border-bottom: 50px solid transparent;
+		position: absolute;
+		top: 400px;
+		left: 120px;
+		animation: swim 2s infinite linear
+	}
+
+		.black_circle_4 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 100px;
+			top: 443px;
+		}
+
+	.blue_circle_5 {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: #1976b0;
+		border-radius: 100%;
+		left: 20px;
+		top: 500px;
+		}
+
+		.blackest_triangle_5 {
+			width: 0;
+			height: 0;
+			border-top: 50px solid transparent;
+			border-left: 50px solid transparent; 
+			border-right: 50px solid black;
+			border-bottom: 50px solid transparent;
+			position: absolute;
+			top: 500px;
+			left: 50px;
+			animation: swim 2s infinite linear;
+	}
+
+		.black_circle_5 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 30px;
+			top: 543px;
+		}
+
+	.blue_circle_6 {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: #1976b0;
+		border-radius: 100%;
+		left: 150px;
+		top: 500px;
+}
+
+
+		.black_circle_6 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 160px;
+			top: 543px;
+		}
+
+	.blue_circle_7 {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: #1976b0;
+		border-radius: 100%;
+		left: 220px;
+		top: 400px;
+}
+
+
+		.black_circle_7 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 230px;
+			top: 443px;
+		}
+
+	.blue_circle_8 {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background: #1976b0;
+		border-radius: 100%;
+		left: 280px;
+		top: 300px;
+}
+
+
+		.black_circle_8 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: black;
+			border-radius: 100%;
+			left: 290px;
+			top: 343px;
+		}
+
+@keyframes swim {
+	0% { transform:rotate(0deg); }
+	25% { transform:rotate(7deg); }
+	50% { transform:rotate(0deg); }
+	75% { transform:rotate(-7deg); }
+	100% { transform:rotate(0deg); }
+}
+
+.tiny_circle_1 {
+	width: 9.5vw;
+	height: 15.65vh;
+	background: url(../fonts/fish.png) no-repeat;
+	background-size: 90px;
+	left: 20px;
+	top: 20px;
+	position: absolute;
+
+
+	
+	}
